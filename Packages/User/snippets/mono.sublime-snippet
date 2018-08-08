@@ -6,9 +6,10 @@
 \$handler->setFormatter( \$formatter );
 \$log->pushHandler(\$handler);
 \$log->info(__CLASS__." - \033[1;35m".__METHOD__."\033[0m");
+$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>mono</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.php</scope> -->
+	<scope>source.php</scope>
 </snippet>
